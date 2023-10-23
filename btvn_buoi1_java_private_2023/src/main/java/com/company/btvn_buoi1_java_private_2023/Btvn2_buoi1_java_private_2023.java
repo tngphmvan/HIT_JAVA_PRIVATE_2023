@@ -31,8 +31,10 @@ public class Btvn2_buoi1_java_private_2023 {
             c = temp;
             gcd = gcd_temp;
         }
+        //tinh ucln = giai thuat euclid
         System.out.println(gcd);
         lcm_tmp = (tmp_a * tmp_b) / a;
+        //ta co a*b=ucln*bcnn nên ta ghép từng căp 1 trong 3 so a,b,c
         System.out.println(lcm_tmp);
         int tmp_c1=tmp_c;
         int lcm_tmp1=lcm_tmp;
@@ -43,7 +45,6 @@ public class Btvn2_buoi1_java_private_2023 {
             tmp_c1 = temp;
             gcd = lcm_tmp1;
         }
-        System.out.println(gcd);
         System.out.println(k/gcd);
      }
 }
