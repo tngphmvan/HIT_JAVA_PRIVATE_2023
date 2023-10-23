@@ -28,7 +28,6 @@ public class Btvn2_buoi1_java_private_2023 {
             }
         }
         System.out.println(kq);
-        System.out.println("Hello");
     }
 }
 
