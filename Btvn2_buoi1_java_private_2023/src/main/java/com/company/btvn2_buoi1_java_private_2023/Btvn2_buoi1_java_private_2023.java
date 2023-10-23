@@ -12,16 +12,20 @@ import java.util.Scanner;
 public class Btvn2_buoi1_java_private_2023 {
 
     public static void main(String[] args) {
-        int a, b,tmp=0;
-        String kq="";
+        int a, b, tmp=0;
+        String kq = "";
         Scanner s = new Scanner(System.in);
         a = s.nextInt();
         b = s.nextInt();
-        int i = 0;
+
         while (a > 0) {
             tmp = a % b;
             a = a / b;
-            kq=tmp+kq;
+            if (tmp >= 10 && tmp <= 15) {
+                kq = (char)('A' + (tmp - 10)) + kq;
+            } else {
+                kq = tmp + kq;
+            }
         }
         System.out.println(kq);
     }
