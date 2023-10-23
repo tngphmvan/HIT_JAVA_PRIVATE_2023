@@ -1,0 +1,2 @@
+Lần đầu: git init -> git add . -> git commit -m "nội dung gì đấy" -> git branch -M main -> git remote add origin 'url repo' -> git push origin 'tên nhánh'
+Những lần sau: git add . -> git commit -m "nội dung gì đấy" ->  git push origin 'tên nhánh
