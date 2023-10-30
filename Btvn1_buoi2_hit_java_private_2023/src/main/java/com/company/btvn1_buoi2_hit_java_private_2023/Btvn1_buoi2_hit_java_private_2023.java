@@ -1,11 +1,16 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-package com.company.btvn1_buoi2_java_private_2023;
 
+package com.company.btvn1_buoi2_hit_java_private_2023;
+
+/**
+ *
+ * @author 84393
+ */
 import java.util.Scanner;
 
-public class Btvn1_buoi2_java_private_2023 {
+public class Btvn1_buoi2_hit_java_private_2023 {
 
     public static int max(int[] a, int n) {
         int max = a[0];
