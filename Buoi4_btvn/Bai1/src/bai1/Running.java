@@ -4,28 +4,27 @@ import java.util.*;
 
 public class Running {
 
-    static{
-        Author author1 = new Author("Vo Nguyen Giap", "1910");
-        Author author2 = new Author("Dang Thuy Tram", "1905");
-        Author author3 = new Author("Vo Nguyen Giap", "1910");
-        Author author4 = new Author("Ho Chi Minh", "1890");
-
-        Book book1 = new Book("Tong hanh dinh trong mua xuan dai thang", "2004", "Hoi ky", author1);
-        Book book2 = new Book("Nhat ky Dang Thuy Tram", "2013", "Tu truyen", author2);
-        Book book3 = new Book("Duong toi Dien Bien Phu", "1999", "Hoi ky", author3);
-        Book book4 = new Book("Nhat ky trong tu", "1925", "Nhat ky", author4);
-    }
     public static void main(String[] args) {
 
         List<Book> book = new ArrayList<>();
         List<Author> author = new ArrayList<>();
         
-        
+//TÉT CÂY
+//        Author author1 = new Author("Vo Nguyen Giap", "1910");
+//        Author author2 = new Author("Dang Thuy Tram", "1905");
+//        Author author3 = new Author("Vo Nguyen Giap", "1910");
+//        Author author4 = new Author("Ho Chi Minh", "1890");
+//
+//        Book book1 = new Book("Tong hanh dinh trong mua xuan dai thang", "2004", "Hoi ky", author1);
+//        Book book2 = new Book("Nhat ky Dang Thuy Tram", "2013", "Tu truyen", author2);
+//        Book book3 = new Book("Duong toi Dien Bien Phu", "1999", "Hoi ky", author3);
+//        Book book4 = new Book("Nhat ky trong tu", "1925", "Nhat ky", author4);
+//
 //        book.add(book1);
 //        book.add(book2);
 //        book.add(book3);
 //        book.add(book4);
-        
+
         Scanner s = new Scanner(System.in);
         while (true) {
             System.out.println("");

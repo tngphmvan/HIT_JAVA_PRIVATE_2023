@@ -3,12 +3,10 @@ package bai2;
 import java.util.*;
 
 public class Running {
-    static{
-        
-    }
 
     public static void main(String[] args) {
         List<May> may = new ArrayList<>();
+//TÉT CÂY        
 //        May may1 = new May(01,"Asus","Ok");
 //        May may2 = new May(02,"Lenovo","Baotri");
 //        May may3 = new May(999999999,"MSI","OK");
@@ -18,9 +16,11 @@ public class Running {
 //        may.add(may3);
 //        may.add(may4);
         QuanLy quanly = new QuanLy();
+//TÉT CÂY
 //        QuanLy quanly = new QuanLy("001","Joe Campos");
         Scanner s = new Scanner(System.in);
         PhongMay phongmay = new PhongMay();
+//TÉT CÂY
 //        PhongMay phongmay = new PhongMay("Cyber001","Viking Gaming",quanly,may);
         while (true) {
             System.out.println("");
