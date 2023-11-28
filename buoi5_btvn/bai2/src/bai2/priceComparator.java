@@ -13,6 +13,6 @@ import java.util.Comparator;
  public class priceComparator implements Comparator<Goods> {
     @Override
     public int compare(Goods goods1, Goods goods2) {
-        return Double.compare(goods1.getDongia(), goods2.getDongia());
+        return Double.compare(goods2.getDongia(), goods1.getDongia()) ;
     }
 }

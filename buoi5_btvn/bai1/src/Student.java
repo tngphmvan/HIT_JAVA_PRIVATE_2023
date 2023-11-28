@@ -72,8 +72,7 @@ public class Student extends Person {
 
     @Override
     public void output() {
-        System.out.printf("%-17s%-23s%-18s%-26s%-26s%-21s%-19s%s\n", getId(), getName(),
-                getAge(), getAddress().getCommune(), getAddress().getDistrict(), getAddress().getCity(), getNameClass(), getGpa());
+        System.out.printf("%-17s%-23s%-18s%-26s%-26s%-21s%-19s%s\n", getId(), getName(), getAge(), getAddress().getCommune(), getAddress().getDistrict(), getAddress().getCity(), getNameClass(), getGpa());
     }
 
     public boolean checkFall() {

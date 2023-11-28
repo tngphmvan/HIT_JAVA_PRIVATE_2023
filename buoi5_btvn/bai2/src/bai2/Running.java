@@ -20,10 +20,10 @@ public class Running {
     static {
         // Tạo một danh sách Goods
 
-        goodsList.add(new Goods("Hàng A", "Yen", 10, 20000));
-        goodsList.add(new Goods("Hàng B", "Nhân dân tệ", 5, 50000));
-        goodsList.add(new Goods("Hàng C", "VND", 15, 30000));
-        goodsList.add(new Goods("Hàng D", "DOllar", 7, 70000));
+        goodsList.add(new Goods("Hàng A", "Cái", 10, 20000));
+        goodsList.add(new Goods("Hàng B", "Kg", 5, 50000));
+        goodsList.add(new Goods("Hàng C", "Kara", 15, 30000));
+        goodsList.add(new Goods("Hàng D", "leed", 7, 70000));
 
     }
 
@@ -38,18 +38,19 @@ public class Running {
 
         Bill bill2 = new Bill();
 
-        System.out.print("Nhap vo so luong hang: ");
-        int n = s.nextInt();
+//        System.out.print("Nhap vo so luong hang: ");
+//        int n = s.nextInt();
 
-        bill2.input(n);
+//        bill2.input(n);
 //
-        bill2.sortByPrice();
-//        bill1.sortByPrice();
+//        bill2.sortByPrice();
+        bill1.sortByPrice();
         
         System.out.println("San pham co so luong lớn nhất: ");
         System.out.printf("%-10s %-20s %-15s %-10s %-10s %-10s\n", "MaHang", "Ten", "DVT", "SoLuong", "DonGia", "Thanh Tien");
-        bill2.maxQuantity();
-//        bill1.maxQuantity();
+//        bill2.maxQuantity();
+        bill1.maxQuantity();
     }
+    
 
 }
