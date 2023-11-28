@@ -4,6 +4,8 @@
  */
 package buoi6_bai2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author 84393
@@ -23,5 +25,28 @@ public class PartTimeEmployee extends Employee {
     @Override
     public int calculateSalary(){
         return workingHours*super.getPaymentPerHour();
+    }
+    
+    @Override
+    public void display(){
+        System.out.println("Name: "+this.getName()+", Payment per hour: "+super.getPaymentPerHour()+", working hours: "+this.workingHours);
+    }
+    
+    
+    @Override
+    public void enter(){
+        Scanner s = new Scanner(System.in);
+        super.enter();
+        System.out.print("Working hours: ");
+        this.workingHours = s.nextInt();
+    }
+
+    @Override
+    public int getWorkingHours() {
+        return workingHours;
+    }
+
+    public void setWorkingHours(int workingHours) {
+        this.workingHours = workingHours;
     }
 }

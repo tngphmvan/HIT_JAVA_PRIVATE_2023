@@ -4,6 +4,8 @@
  */
 package buoi6_bai2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author 84393
@@ -25,6 +27,7 @@ public abstract class Employee implements IEmployee {
         return name;
     }
 
+    public abstract int getWorkingHours();
     public void setName(String name) {
         this.name = name;
     }
@@ -37,4 +40,14 @@ public abstract class Employee implements IEmployee {
         this.paymentPerHour = paymentPerHour;
     }
     
+    public void display(){
+        System.out.print("Name: "+this.getName()+", Payment per hour: "+this.getPaymentPerHour());
+    }
+    public void enter(){
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter Name: ");
+        this.name = s.nextLine();
+        System.out.print("Enter Payement per hour: ");
+        this.paymentPerHour = s.nextInt();
+    }
 }
