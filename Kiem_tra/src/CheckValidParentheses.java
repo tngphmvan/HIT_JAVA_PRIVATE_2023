@@ -31,11 +31,11 @@ public class CheckValidParentheses {
                     if (ch == c) {
                         count++;
                     }
-//                    else if (ch !=c ){
-//                        count--;
-//                    }
+                    else if (ch !=c ){
+                        count--;
+                    }
                 }
-                System.out.println(c + ": " + count * 3);
+                System.out.println(c + ": " + count );
             }
         } else {
             System.out.println("Không hợp lệ");
