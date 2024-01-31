@@ -4,9 +4,10 @@
  */
 package QLSV;
 
+import java.io.Serializable;
 import java.util.*;
 
-public class SV {
+public class SV implements Serializable {
 
     private int ID;
     private String name;
